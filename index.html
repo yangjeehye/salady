@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>샐러디(SALADY)</title>
+    <link rel="shortcut icon" href="http://saladykorea.com/new_favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/javascript.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="bg_lnb"><a href="#">bg_lnb</a></div>
+
+            <h1 class="logo">
+                <a href="index.html">
+                    샐러디로고
+                </a>
+            </h1>
+
+            <nav>
+                <ul class="gnb">
+                    <li>
+                        <a href="#">브랜드</a>
+
+                        <ol class="lnb">
+                            <li><a href="#">브랜드 미션</a></li>
+                            <li><a href="#">브랜드 스토리</a></li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <a href="#">메뉴</a>
+
+                        <ol class="lnb">
+                            <li><a href="#">시즈널메뉴</a></li>
+                            <li><a href="#">웜볼</a></li>
+                            <li><a href="#">샐러디</a></li>
+                            <li><a href="#">샌드</a></li>
+                            <li><a href="#">랩·웜랩</a></li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <a href="#">영양정보</a>
+
+                        <ol class="lnb">
+                            <li><a href="#">영양성분표</a></li>
+                            <li><a href="#">칼로리 계산하기</a></li>
+                            <li><a href="#">칼로리표</a></li>
+                            <li><a href="#">알레르기 정보</a></li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <a href="#">매장</a>
+
+                        <ol class="lnb">
+                            <li><a href="#">매장찾기</a></li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <a href="#">프랜차이즈</a>
+
+                        <ol class="lnb">
+                            <li><a href="#">가맹 안내</a></li>
+                            <li><a href="#">가맹상담 신청</a></li>
+                            <li><a href="#">가맹설명회 신청</a></li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <a href="#">새소식</a>
+
+                        <ol class="lnb">
+                            <li><a href="#">이벤트·프로모션</a></li>
+                            <li><a href="#">뉴스·공지사항</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr />
+
+        <section class="banner">
+            <h2 class="sr-only">
+                saladt banner
+            </h2>
+
+            <div class="slide">
+                <ul class="slide-container">
+                    <li>
+                        <a href="#"><img src="./images/banner-1.jpg" alt="여름 신메뉴"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/banner-2.jpg" alt="토핑과 드레싱"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/banner-3.jpg" alt="스마트 주문"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/banner-4.jpg" alt="에그베이컨샌드"></a>
+                    </li>
+                </ul>
+
+                <ol class="slide-pagination">
+                    <li class="on"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ol>
+            </div>
+        </section>
+
+        <hr />
+
+        <section class="menu">
+            <h2>SALADY MENU</h2>
+
+            <article>
+                <h3 class="sr-only">SALADY MENU</h3>
+
+                <ul class="menu-gnb">
+                    <li class="on"><a href="#">웜볼</a></li>
+                    <li><a href="#">샐러디</a></li>
+                    <li><a href="#">샌드</a></li>
+                    <li><a href="#">랩</a></li>
+                    <li><a href="#">웜랩</a></li>
+                </ul>
+
+                <div class="menu_con on" id="menu_01">
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/bowl-1.png" alt="#" />
+                        </dt>
+                        <dd>
+                            <h3>칠리베이컨</h3>
+                            <p>Chilli Bacon</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/bowl-2.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>우삼겹</h3>
+                            <p>Beef Loin</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/bowl-3.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>단호박두부</h3>
+                            <p>Sweet Pumpkin Tofu</p>
+                        </dd>
+                    </dl>
+                </div>
+
+                <div class="menu_con" id="menu_02">
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/salady-1.png" alt="#" />
+                        </dt>
+                        <dd>
+                            <h3>탄단지</h3>
+                            <p>Tandanji</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/salady-2.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>연어</h3>
+                            <p>Salmon</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/salady-3.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>쉬림프</h3>
+                            <p>Shrimp</p>
+                        </dd>
+                    </dl>
+                </div>
+
+                <div class="menu_con" id="menu_03">
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/sand-1.png" alt="#" />
+                        </dt>
+                        <dd>
+                            <h3>치킨토마토</h3>
+                            <p>Chicken Tomato</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/sand-2.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>에그베이컨</h3>
+                            <p>Egg Bacon</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/sand-3.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>샬롯연어</h3>
+                            <p>Shallot Salmon</p>
+                        </dd>
+                    </dl>
+                </div>
+
+                <div class="menu_con" id="menu_04">
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/wrap-1.png" alt="#" />
+                        </dt>
+                        <dd>
+                            <h3>멕시칸</h3>
+                            <p>Maxican</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/wrap-2.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>시저치킨</h3>
+                            <p>Caesar chicken</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/wrap-3.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>샬롯연어</h3>
+                            <p>Shallot Salmon</p>
+                        </dd>
+                    </dl>
+                </div>
+
+                <div class="menu_con" id="menu_05">
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/warm-1.png" alt="#" />
+                        </dt>
+                        <dd>
+                            <h3>칠리베이컨</h3>
+                            <p>Chilli Bacon</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/warm-2.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>우삼겹</h3>
+                            <p>Beef Loin</p>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu_info">
+                        <dt>
+                            <img src="./images/warm-3.png" alt="#" />
+                        </dt>
+
+                        <dd>
+                            <h3>치킨소시지</h3>
+                            <p>Chicken Sausage</p>
+                        </dd>
+                    </dl>
+                </div>
+            </article>
+        </section>
+
+        <hr />
+
+        <section class="cont">
+            <h2 class="sr-only">샐러디 정보</h2>
+
+            <div class="cont_menu_1">
+                <p><img src="./images/cont_menu_1.png" alt="여름신메뉴"></p>
+                <p><img src="./images/cont_menu_2.png" alt="샐러디"></p>
+            </div>
+
+            <a href="#" class="btn_1"><img src="./images/cont_btn_1.png" alt="자세히보기"></a>
+
+            <a href="#" class="btn_2"><img src="./images/cont_btn_2.png" alt="브랜드 스토리"></a>
+
+            <a href="#" class="btn_3"><img src="./images/cont_btn_3.png" alt="가맹 안내"></a>
+
+            <div class="cont_menu_2">
+                <ul class="cont_txt">
+                    <li><a href="#">(NEW) 2021 여름 한정 메뉴 출시</a></li>
+                    <li><a href="#">(공지) '샐러디 온라인 창업설명회' 참여 방법 안내</a></li>
+                    <li><a href="#">(공지) 곡물 재료 변경에 관한 안내문</a></li>
+                    <li><a href="#">(NEW) 샐러디, 꾸준한 성장해 '100호점 돌파'</a></li>
+                </ul>
+
+                <a href="#">more</a>
+                <!-- <p>
+                    <img src="./images/cont_menu_3.png" alt="샐러디 뉴">
+                </p> -->
+                <p><img src="./images/cont_menu_4.png" alt="가맹안내"></p>
+            </div>
+        </section>
+
+        <hr />
+
+        <section class="cont_2">
+            <h2 class="sr-only">
+                샐러디 메뉴
+            </h2>
+
+            <div class="cont_2_menu">
+                <dl class="cont_info_1">
+                    <dt>
+                        <img src="./images/brn_menu_1.png" alt="#" />
+                    </dt>
+
+                    <dd>
+                        <h3>프랜차이즈</h3>
+                        <p>가맹상담 신청</p>
+                    </dd>
+                </dl>
+
+                <dl class="cont_info_2">
+                    <dt>
+                        <img src="./images/brn_menu_2.png" alt="#" />
+                    </dt>
+
+                    <dd>
+                        <h3>샐럽오더</h3>
+                        <p>샐럽오더 이용방법</p>
+                    </dd>
+                </dl>
+
+                <dl class="cont_info_3">
+                    <dt>
+                        <img src="./images/brn_menu_3.png" alt="#" />
+                    </dt>
+
+                    <dd>
+                        <h3>샐러디 매장</h3>
+                        <p>매장 찾기</p>
+                    </dd>
+                </dl>
+
+                <dl class="cont_info_4">
+                    <dt>
+                        <img src="./images/brn_menu_4.png" alt="#" />
+                    </dt>
+
+                    <dd>
+                        <h3>고객문의</h3>
+                        <p>자주하는 질문/1:1문의</p>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+
+        <footer>
+            <p>line_2</p>
+
+            <div class="personal">
+                <ul class="personal_gnb">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">점주관리자</a></li>
+                </ul>
+            </div>
+
+            <address>
+                서울특별시 강남구 역삼동 선릉로93길 26 우리빌딩 1층
+                <br />
+                회사명 : ㈜샐러디 &#124; 사업자등록번호 : 681-86-00031 <br />
+                COPYRIGHT(C) 2021 ㈜샐러디. CO.LTD ALL RIGHT RESERVED. &#124; &copy;Designed by Yang Jee Hye
+            </address>
+
+            <div class="sns_btn">
+                <a href="https://blog.naver.com/saladykorea" target="_blank">블로그</a>
+                <a href="https://www.instagram.com/saladykorea/" target="_blank">인스타그램</a>
+                <a href="https://pf.kakao.com/_xhmxnJu" target="_blank">카카오톡</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
